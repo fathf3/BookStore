@@ -1,0 +1,76 @@
+[Request] HTTP GET - /api/Book
+[Request] HTTP GET - /api/Book/3
+22:14 : [Request] HTTP GET - /api/Book
+22:40 : [Request] HTTP GET - /api/Book
+22:40 : [Response] HTTP GET - /api/Book responsed 200 in 156,3332
+22:40 : [Request] HTTP PUT - /api/Book/1231
+[Error] HTTPPUT - 200 Error Message : Validation failed: 
+ -- Model.GenreId: 'Model Genre Id' değeri '0' değerinden büyük olmalı.
+ -- Model.GenreId: 'Model Genre Id' boş olmamalı. in 59,3899
+22:40 : [Request] HTTP GET - /api/Book/123
+[Error] HTTPGET - 200 Error Message : Kitap mevcut değil. in 20,3358
+22:42 : [Request] HTTP GET - /api/Book
+22:42 : [Response] HTTP GET - /api/Book responsed 200 in 155,9583
+23:08 : [Request] HTTP GET - /api/Book
+23:08 : [Response] HTTP GET - /api/Book responsed 200 in 162,9593
+23:08 : [Request] HTTP PUT - /api/Book/123
+[Error] HTTPPUT - 200 Error Message : Validation failed: 
+ -- Model.GenreId: 'Model Genre Id' değeri '0' değerinden büyük olmalı.
+ -- Model.GenreId: 'Model Genre Id' boş olmamalı. in 46,2982
+23:08 : [Request] HTTP DELETE - /api/Book/1
+23:08 : [Response] HTTP DELETE - /api/Book/1 responsed 200 in 22,4872
+00:43 : [Request] HTTP GET - /api/Book
+00:43 : [Response] HTTP GET - /api/Book responsed 200 in 182,1415
+12:34 : [Request] HTTP GET - /api/Genre
+12:34 : [Response] HTTP GET - /api/Genre responsed 200 in 224,3995
+12:34 : [Request] HTTP POST - /api/Genre
+[Error] HTTPPOST - 200 Error Message : Kitap türü mevcut in 68,1547
+12:37 : [Request] HTTP GET - /api/Genre
+12:37 : [Response] HTTP GET - /api/Genre responsed 200 in 209,2669
+12:37 : [Request] HTTP POST - /api/Genre
+[Error] HTTPPOST - 200 Error Message : Kitap türü mevcut in 59,5687
+12:38 : [Request] HTTP POST - /api/Genre
+12:38 : [Response] HTTP POST - /api/Genre responsed 200 in 225,8724
+12:38 : [Request] HTTP GET - /api/Genre
+12:38 : [Response] HTTP GET - /api/Genre responsed 200 in 39,94
+12:40 : [Request] HTTP GET - /api/Book
+12:40 : [Response] HTTP GET - /api/Book responsed 200 in 24,2761
+12:45 : [Request] HTTP GET - /api/Genre
+12:45 : [Response] HTTP GET - /api/Genre responsed 200 in 215,3639
+12:46 : [Request] HTTP POST - /api/Genre
+12:46 : [Response] HTTP POST - /api/Genre responsed 200 in 56,7254
+12:46 : [Request] HTTP GET - /api/Genre
+12:46 : [Response] HTTP GET - /api/Genre responsed 200 in 5,8834
+12:49 : [Request] HTTP PUT - /api/Genre/5
+[Error] HTTPPUT - 200 Error Message : Kitap türü bulunamadı in 231,9284
+12:50 : [Request] HTTP GET - /api/Genre
+12:50 : [Response] HTTP GET - /api/Genre responsed 200 in 203,801
+12:50 : [Request] HTTP PUT - /api/Genre/4
+12:50 : [Response] HTTP PUT - /api/Genre/4 responsed 200 in 69,4759
+12:50 : [Request] HTTP GET - /api/Genre
+12:50 : [Response] HTTP GET - /api/Genre responsed 200 in 8,0886
+12:51 : [Request] HTTP GET - /api/Genre
+12:51 : [Response] HTTP GET - /api/Genre responsed 200 in 2,2814
+12:51 : [Request] HTTP GET - /api/Genre
+12:51 : [Response] HTTP GET - /api/Genre responsed 200 in 2,3516
+12:51 : [Request] HTTP PUT - /api/Genre/3
+12:51 : [Response] HTTP PUT - /api/Genre/3 responsed 200 in 250,14
+12:52 : [Request] HTTP GET - /api/Genre
+12:52 : [Response] HTTP GET - /api/Genre responsed 200 in 43,2383
+12:52 : [Request] HTTP PUT - /api/Genre/3
+12:54 : [Request] HTTP PUT - /api/Genre/3
+12:54 : [Response] HTTP PUT - /api/Genre/3 responsed 200 in 244,1073
+12:54 : [Request] HTTP GET - /api/Genre
+12:54 : [Response] HTTP GET - /api/Genre responsed 200 in 39,2416
+13:03 : [Request] HTTP GET - /api/Book
+13:03 : [Response] HTTP GET - /api/Book responsed 200 in 237,9821
+14:50 : [Request] HTTP GET - /api/Author
+14:50 : [Response] HTTP GET - /api/Author responsed 200 in 315,9589
+14:50 : [Request] HTTP GET - /api/Author
+14:50 : [Response] HTTP GET - /api/Author responsed 200 in 14,4617
+14:50 : [Request] HTTP GET - /api/Book
+14:50 : [Response] HTTP GET - /api/Book responsed 200 in 99,7514
+14:51 : [Request] HTTP DELETE - /api/Author/1
+[Error] HTTPDELETE - 200 Error Message : Yazar a ait kitap oldugu icin islem yapılamadı. in 47,2822
+14:51 : [Request] HTTP GET - /api/Author
+14:51 : [Response] HTTP GET - /api/Author responsed 200 in 2,7446

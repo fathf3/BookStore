@@ -74,3 +74,7 @@
 [Error] HTTPDELETE - 200 Error Message : Yazar a ait kitap oldugu icin islem yapılamadı. in 47,2822
 14:51 : [Request] HTTP GET - /api/Author
 14:51 : [Response] HTTP GET - /api/Author responsed 200 in 2,7446
+16 Ağustos 2023 Çarşamba : [Request] HTTP GET - /api/Author
+16 Ağustos 2023 Çarşamba : [Response] HTTP GET - /api/Author responsed 200 in 219,7411
+08.16.2023 01:21 : [Request] HTTP GET - /api/Author
+08.16.2023 01:21 : [Response] HTTP GET - /api/Author responsed 200 in 220,1766

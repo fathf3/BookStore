@@ -78,3 +78,7 @@ C:\Users\fatih\Documents\Code\CSharp\Patika\NetCore\BookStore\BookStore\bin\Debu
 C:\Users\fatih\Documents\Code\CSharp\Patika\NetCore\BookStore\BookStore\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\fatih\Documents\Code\CSharp\Patika\NetCore\BookStore\BookStore\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\fatih\Documents\Code\CSharp\Patika\NetCore\BookStore\BookStore\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\fatih\Documents\Code\CSharp\Patika\BookStore\BookStore\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\fatih\Documents\Code\CSharp\Patika\BookStore\BookStore\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\fatih\Documents\Code\CSharp\Patika\BookStore\BookStore\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\fatih\Documents\Code\CSharp\Patika\BookStore\BookStore\bin\Debug\net5.0\Newtonsoft.Json.dll

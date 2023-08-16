@@ -28,14 +28,14 @@ namespace BookStore.Middlewares
             var watch = Stopwatch.StartNew();
             try
             {
-                string message = $"{DateTime.Now.ToShortTimeString()} : [Request] HTTP " + context.Request.Method + " - " + context.Request.Path;
+                string message = $"{DateTime.Now.ToString("MM/dd/yyyy HH:mm")} : [Request] HTTP " + context.Request.Method + " - " + context.Request.Path;
                 Console.WriteLine(message);
 
                 _loggerService.writeLog(message);
                 await _next(context);
                 watch.Stop();
 
-                message = $"{DateTime.Now.ToShortTimeString()} : [Response] HTTP " + context.Request.Method+ " - " + context.Request.Path + " responsed " + context.Response.StatusCode + " in " + watch.Elapsed.TotalMilliseconds;
+                message = $"{DateTime.Now.ToString("MM/dd/yyyy HH:mm")} : [Response] HTTP " + context.Request.Method+ " - " + context.Request.Path + " responsed " + context.Response.StatusCode + " in " + watch.Elapsed.TotalMilliseconds;
                 _loggerService.writeLog(message);
                 Console.WriteLine(message);
 
@@ -50,7 +50,7 @@ namespace BookStore.Middlewares
 
         private Task HandleException(HttpContext context, Exception ex, Stopwatch watch)
         {
-            string message = "[Error] HTTP" + context.Request.Method + " - " + context.Response.StatusCode + " Error Message : " + ex.Message + " in " + watch.Elapsed.TotalMilliseconds;
+            string message = $"{DateTime.Now.ToString("MM/dd/yyyy HH:mm")} : [Error] HTTP" + context.Request.Method + " - " + context.Response.StatusCode + " Error Message : " + ex.Message + " in " + watch.Elapsed.TotalMilliseconds;
             _loggerService.writeLog(message);
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;

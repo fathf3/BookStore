@@ -9,7 +9,7 @@ namespace BookStore.Common
         public void checkAndCreate()
         {
 
-            string filePath = @"C:\Users\fatih\Documents\Code\CSharp\Patika\NetCore\BookStore\BookStore\Log";
+            string filePath = @"C:\Users\fatih\Documents\Code\CSharp\Patika\BookStore\BookStore\Log";
             if (!Directory.Exists(filePath))//Logların bulunduğu dosya yoksa oluşturur
             {
                 Directory.CreateDirectory(filePath);//Dosya yoksa oluşturur
@@ -30,9 +30,12 @@ namespace BookStore.Common
 
         public void writeLog(string logMessage)
         {
+            
             checkAndCreate();
+            
+
             //Önce log dosyalarının bulunduğu ana dosyaya gideceğiz
-            string folderPath = @"C:\Users\fatih\Documents\Code\CSharp\Patika\NetCore\BookStore\BookStore\Log";
+            string folderPath = @"C:\Users\fatih\Documents\Code\CSharp\Patika\BookStore\BookStore\Log";
             //Sonra belirtilen dosya yolunu kapsayan log.txt dosya yollarını bir diziye aktaracağız
             string[] logFiles = Directory.GetFiles(folderPath, "log-dosyasi" + ".txt");
             string logFilePath = logFiles[0];//Belirtilen koşulu sağlayan ilk log dosyasını alıyoruz
